@@ -10,14 +10,14 @@ import CreateListing from './pages/CreateListing';
 import UpdateListing from './pages/UpdateListing';
 import Listing from './pages/Listing';
 import Search from './pages/Search';
-import Home1 from './pages/Home1';
+// import Home1 from './pages/Home1';
 export default function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/' element={<Home1 />} />
-        <Route path='/ho' element={<Home />} />
+        {/* <Route path='/' element={<Home1 />} /> */}
+        <Route path='/' element={<Home />} />
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/about' element={<About />} />
