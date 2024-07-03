@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 import config from "../../config.json";
-import "./explore.css";
+import "./Explore.css";
 import { Link } from "react-router-dom";
 
 const PrevArrow = (props) => {
