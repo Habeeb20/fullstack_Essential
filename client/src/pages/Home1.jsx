@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react'
 // import Explore from '../components/explore/Explore';
 // import InspectedRoom from "../components/inspectedRoom/InspectedRoom";
 // import Offers from "../components/offers/Offers";
@@ -10,12 +10,12 @@
 // import Footer from "../components/footer/Footer";
 
 
-// const Home1 = () => {
-//   return (
-//     <div>
-//       <h1>hello</h1>
-//     </div>
-//   )
-// }
+const Home1 = () => {
+  return (
+    <div>
+      <h1>hello</h1>
+    </div>
+  )
+}
 
-// export default Home1
+export default Home1
