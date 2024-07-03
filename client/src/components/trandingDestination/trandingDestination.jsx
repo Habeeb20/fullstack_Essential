@@ -1,6 +1,6 @@
 import React from 'react'
 
-const trandingDestination = () => {
+const TrandingDestination = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const trandingDestination = () => {
   )
 }
 
-export default trandingDestination
+export default TrandingDestination
