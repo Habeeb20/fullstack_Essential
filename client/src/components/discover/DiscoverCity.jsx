@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import "./discoverCity.css";
+import "./DiscoverCity.css";
 
 export default function DiscoverCity() {
   const [data] = useState([

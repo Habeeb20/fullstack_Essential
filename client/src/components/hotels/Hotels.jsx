@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./hotels.css";
+import "./Hotels.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Slider from "react-slick";
