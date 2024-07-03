@@ -2,6 +2,7 @@ import React from 'react'
 import Explore from '../components/explore/Explore';
 import InspectedRoom from "../components/inspectedRoom/InspectedRoom";
 import Offers from "../components/offers/Offers";
+import TrandingDestination from '../components/trandingDestination/trandingDestination';
 // import TrandingDestination from '../components/trandingDestination/TrandingDestination';
 import DiscoverCity from "../components/discover/DiscoverCity";
 import HotelCategories from "../components/hotelCategories/HotelCategories";
@@ -13,7 +14,15 @@ import Footer from "../components/footer/Footer";
 const Home1 = () => {
   return (
     <div>
-      <h1>hello</h1>
+       <Offers />
+      <HotelDeals />
+      <Hotels />
+      <HotelCategories />
+      <TrandingDestination />
+      <Explore />
+      <InspectedRoom />
+      <DiscoverCity />
+      <Footer />
     </div>
   )
 }
