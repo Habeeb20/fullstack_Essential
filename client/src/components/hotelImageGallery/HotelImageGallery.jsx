@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./hotelImageGallery.css";
+import "./hotelImagesGallery.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowLeft,

@@ -77,7 +77,7 @@ import ChatComponent from "./components/ChatComponent";
 import WhatsAppIcon from './components/WhatsAppIcon';
 
 import SupportEngine from "./components/SupportEngine";
-import SupportAdmin from "./components/SupportAdmin";
+// import SupportAdmin from "./components/SupportAdmin";
 
 export default function App() {
 
