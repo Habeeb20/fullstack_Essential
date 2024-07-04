@@ -11,7 +11,7 @@ import {
   faDumbbell,
 } from "@fortawesome/free-solid-svg-icons";
 import config from "../../config.json";
-import "./CategoryList.css";
+import "./categoryList.css";
 
 export default function CategoryList() {
   const { category } = useParams();
