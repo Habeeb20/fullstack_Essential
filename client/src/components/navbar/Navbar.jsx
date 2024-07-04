@@ -4,13 +4,13 @@ import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./navbar.css";
-import { useAuth } from "../../contexts/AuthContext";
+// import { useAuth } from "../../contexts/AuthContext";
 
 export default function CustomNavbar() {
   const navigate = useNavigate();
-  const { user } = useAuth();
-  const role = user?.role;
-  const navbarRef = useRef(null);
+//   const { user } = useAuth();
+//   const role = user?.role;
+//   const navbarRef = useRef(null);
 
   const [navbar, setNavbar] = useState(false);
   const [navbarbrand, setColor] = useState(false);
@@ -62,8 +62,8 @@ export default function CustomNavbar() {
   return (
     <>
       <Navbar
-        ref={navbarRef}
-        expanded={expanded}
+        // ref={navbarRef}
+        // expanded={expanded}
         scrolling="true"
         light="true"
         expand="lg"

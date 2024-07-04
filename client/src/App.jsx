@@ -162,8 +162,9 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <Header />
-  
+    {/* <Navbar/> */}
+      {/* <Header />
+   */}
       <Routes>
         
       
