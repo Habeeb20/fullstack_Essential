@@ -29,21 +29,21 @@ import AdminDashboard from "./pages/dashboard/AdminDashboard";
 import UpdateHotelForm from "./pages/updateHotelForm/UpdateHotelForm";
 import MultiStepForm from "./pages/multiStepForm/MultiStepForm";
 
-import PartnerRegisterForm from "./pages/partnerRegisterForm/PartnerRegisterForm";
-import RoomForm from "./pages/roomForm/RoomForm";
-import RoomComponent from "./pages/dashboard/RoomComponent";
-import HotelComponent from "./pages/dashboard/HotelComponent";
-import BookingComponent from "./pages/dashboard/BookingCommponent";
-import Room from "./pages/dashboard/Room";
-import Booking from "./pages/dashboard/Booking";
-import Hotel from "./pages/dashboard/Hotel";
-import HotelBystate from "./pages/HotelBystate";
-import TrendComponent from "./pages/trendComponent/TrendComponent";
-import SearchResults from "./pages/searchResults/SearchResults";
-import Successfuly from "./pages/successfuly/Successfuly";
-import UpdateRoomForm from "./pages/updateRoomForm/UpdateRoomForm";
-import QuestionComponent from "./pages/dashboard/QuestionComponent";
-import Question from "./pages/dashboard/Questions";
+// import PartnerRegisterForm from "./pages/partnerRegisterForm/PartnerRegisterForm";
+// import RoomForm from "./pages/roomForm/RoomForm";
+// import RoomComponent from "./pages/dashboard/RoomComponent";
+// import HotelComponent from "./pages/dashboard/HotelComponent";
+// import BookingComponent from "./pages/dashboard/BookingCommponent";
+// import Room from "./pages/dashboard/Room";
+// import Booking from "./pages/dashboard/Booking";
+// import Hotel from "./pages/dashboard/Hotel";
+// import HotelBystate from "./pages/HotelBystate";
+// import TrendComponent from "./pages/trendComponent/TrendComponent";
+// import SearchResults from "./pages/searchResults/SearchResults";
+// import Successfuly from "./pages/successfuly/Successfuly";
+// import UpdateRoomForm from "./pages/updateRoomForm/UpdateRoomForm";
+// import QuestionComponent from "./pages/dashboard/QuestionComponent";
+// import Question from "./pages/dashboard/Questions";
 
 // import HotelInformation from "./pages/hotelInformation/HotelInformation";
 // import NotVerifiedHotels from "./pages/dashboard/NotVerifiedHotels";
@@ -74,9 +74,9 @@ import Question from "./pages/dashboard/Questions";
 // import ShortStayPartner from "./pages/dashboard/ShortStayPartner";
 // import UpdateRoomAvailavility from "./pages/dashboard/UpdateRoomAvailavility";
 // import ChatComponent from "./components/ChatComponent";
-import WhatsAppIcon from './components/WhatsAppIcon';
+// import WhatsAppIcon from './components/WhatsAppIcon';
 
-import SupportEngine from "./components/SupportEngine";
+// import SupportEngine from "./components/SupportEngine";
 // import SupportAdmin from "./components/SupportAdmin";
 
 export default function App() {
