@@ -166,10 +166,8 @@ export default function App() {
 
   return (
     <BrowserRouter>
-  
-      {/* <Header />
-  //  */} <Navbar />
-      {/* <BookingForm /> */}
+     <Navbar />
+
       <Routes>
         
       
@@ -193,7 +191,7 @@ export default function App() {
           />
         </Route>
       </Routes>
-      <SupportEngine />
+      {/* <SupportEngine /> */}
       <WhatsAppIcon />
     </BrowserRouter>
   );
