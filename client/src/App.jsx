@@ -28,8 +28,8 @@ import PartnerDashboard from "./pages/dashboard/PartnerDashboard";
 import AdminDashboard from "./pages/dashboard/AdminDashboard";
 import UpdateHotelForm from "./pages/updateHotelForm/UpdateHotelForm";
 import MultiStepForm from "./pages/multiStepForm/MultiStepForm";
-import WhatsAppIcon from './components/WhatsAppIcon';
-import SupportEngine from "./components/SupportEngine"
+// import WhatsAppIcon from './components/WhatsAppIcon';
+// import SupportEngine from "./components/SupportEngine"
 
 
 // import PartnerRegisterForm from "./pages/partnerRegisterForm/PartnerRegisterForm";
@@ -193,8 +193,8 @@ export default function App() {
           />
         </Route>
       </Routes>
-      <SupportEngine />
-      <WhatsAppIcon />
+      {/* <SupportEngine />
+      <WhatsAppIcon /> */}
     </BrowserRouter>
   );
 }
