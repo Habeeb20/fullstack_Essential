@@ -44,6 +44,7 @@ import Successfuly from "./pages/successfuly/Successfuly";
 import UpdateRoomForm from "./pages/updateRoomForm/UpdateRoomForm";
 import QuestionComponent from "./pages/dashboard/QuestionComponent";
 import Question from "./pages/dashboard/Questions";
+
 // import HotelInformation from "./pages/hotelInformation/HotelInformation";
 // import NotVerifiedHotels from "./pages/dashboard/NotVerifiedHotels";
 // import VerifiedHotels from "./pages/dashboard/VerifiedHotels";
@@ -165,6 +166,7 @@ export default function App() {
     {/* <Navbar/> */}
       {/* <Header />
    */}
+      <BookingForm />
       <Routes>
         
       
