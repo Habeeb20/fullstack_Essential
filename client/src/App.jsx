@@ -192,7 +192,7 @@ export default function App() {
         </Route>
       </Routes>
       {/* <SupportEngine /> */}
-      <WhatsAppIcon />
+      {/* <WhatsAppIcon /> */}
     </BrowserRouter>
   );
 }
