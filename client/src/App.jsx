@@ -28,6 +28,8 @@ import PartnerDashboard from "./pages/dashboard/PartnerDashboard";
 import AdminDashboard from "./pages/dashboard/AdminDashboard";
 import UpdateHotelForm from "./pages/updateHotelForm/UpdateHotelForm";
 import MultiStepForm from "./pages/multiStepForm/MultiStepForm";
+import WhatsAppIcon from './components/WhatsAppIcon';
+
 
 // import PartnerRegisterForm from "./pages/partnerRegisterForm/PartnerRegisterForm";
 // import RoomForm from "./pages/roomForm/RoomForm";
@@ -166,17 +168,20 @@ export default function App() {
   
       {/* <Header />
   //  */} <Navbar />
-      <BookingForm />
+      {/* <BookingForm /> */}
       <Routes>
         
       
         <Route path='/' element={<Home1 />} />
         {/* <Route path='/h' element={<Home />} /> */}
         <Route path='/sign-in' element={<SignIn />} />
-        <Route path='/sign-up' element={<SignUp />} />
+        <Route path='/register' element={<RegisterForm />} />
+        <Route path = "/login" element= {<LoginForm />} />
+        <Route path = "/admin-dashboard" element = {<AdminDashboard />} />
         <Route path='/about' element={<About />} />
         <Route path='/search' element={<Search />} />
         <Route path='/listing/:listingId' element={<Listing />} />
+     
 
         <Route element={<PrivateRoute />}>
           <Route path='/profile' element={<Profile />} />

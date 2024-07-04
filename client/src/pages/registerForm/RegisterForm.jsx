@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import "./registerForm.css";
 
 export default function RegisterForm() {
-  const { login } = useAuth();
+  // const { login } = useAuth();
   const navigate = useNavigate();
 
   const [showPassword, setShowPassword] = useState(false);

@@ -9,11 +9,12 @@ import HotelCategories from "../components/hotelCategories/HotelCategories";
 import Hotels from "../components/hotels/Hotels";
 import HotelDeals from "../components/hotelDeals/HotelDeals";
 import Footer from "../components/footer/Footer";
-
+import BookingForm from '../components/bookingForm/BookinForm';
 
 const Home1 = () => {
   return (
     <div>
+      <BookingForm />
        <Offers />
       <HotelDeals />
       <Hotels />

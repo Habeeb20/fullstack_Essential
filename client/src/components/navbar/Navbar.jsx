@@ -125,7 +125,7 @@ export default function CustomNavbar() {
                       : "color text nav-link-text"
                   }
                 >
-                  Dashboard
+                 
                 </Nav.Link>
               )}
 
@@ -173,13 +173,13 @@ export default function CustomNavbar() {
                 onClick={() => setExpanded(false)}
                 className={navbarbrand ? "color text" : "color text"}
               >
-                Event Centres
+              
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpanded(false)}
                 className={navbarbrand ? "color text" : "color text"}
               >
-                Flight
+               
               </Nav.Link>
             </Nav>
 

@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import axios from "axios";
 import config from "../../config.json";
 import { Link, useLocation } from "react-router-dom";
-import { useAuth } from "../../contexts/AuthContext";
+// import { useAuth } from "../../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import "./loginForm.css";
 
 export default function LoginForm() {
   const navigate = useNavigate();
   const previousLocation = useLocation().state?.from || "/";
-  const { login } = useAuth();
+  // const { login } = useAuth();
 
   const [formData, setFormData] = useState({
     email: "",
