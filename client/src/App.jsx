@@ -45,13 +45,13 @@ import UpdateRoomForm from "./pages/updateRoomForm/UpdateRoomForm";
 import QuestionComponent from "./pages/dashboard/QuestionComponent";
 import Question from "./pages/dashboard/Questions";
 
-// import HotelInformation from "./pages/hotelInformation/HotelInformation";
-// import NotVerifiedHotels from "./pages/dashboard/NotVerifiedHotels";
-// import VerifiedHotels from "./pages/dashboard/VerifiedHotels";
-// import DiscountForm from "./pages/dashboard/DiscountForm";
-// import PartnerDiscountForm from "./pages/dashboard/PartnerDiscountForm";
-// import ListOfDiscount from "./pages/dashboard/ListOfDiscount";
-// import CheckInFormComponent from "./pages/dashboard/CheckInFormComponent";
+import HotelInformation from "./pages/hotelInformation/HotelInformation";
+import NotVerifiedHotels from "./pages/dashboard/NotVerifiedHotels";
+import VerifiedHotels from "./pages/dashboard/VerifiedHotels";
+import DiscountForm from "./pages/dashboard/DiscountForm";
+import PartnerDiscountForm from "./pages/dashboard/PartnerDiscountForm";
+import ListOfDiscount from "./pages/dashboard/ListOfDiscount";
+import CheckInFormComponent from "./pages/dashboard/CheckInFormComponent";
 // import CheckInFormComponentUpdate from "./pages/dashboard/CheckInFormComponentUpdate";
 // import CheckInListComponent from "./pages/dashboard/CheckInListComponent";
 // import CheckInDetailsComponent from "./pages/dashboard/CheckInDetailsComponent";
@@ -163,9 +163,9 @@ export default function App() {
 
   return (
     <BrowserRouter>
-    {/* <Navbar/> */}
+  
       {/* <Header />
-   */}
+  //  */} <Navbar />
       <BookingForm />
       <Routes>
         

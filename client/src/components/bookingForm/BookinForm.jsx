@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../navbar/Navbar"
 import "./bookingForm.css";
 
 function BookingForm() {
@@ -38,7 +39,10 @@ function BookingForm() {
   };
 
   return (
-    <div className="booking-form">
+    <>
+    {/* <Navbar /> */}
+   
+     <div className="booking-form">
       <div>
         <img
           className="img-fluid"
@@ -194,6 +198,9 @@ function BookingForm() {
         </form>
       </div>
     </div>
+
+    </>
+   
   );
 }
 

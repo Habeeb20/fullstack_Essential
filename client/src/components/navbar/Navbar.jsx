@@ -4,13 +4,13 @@ import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./navbar.css";
-// import { useAuth } from "../../contexts/AuthContext";
+import { useAuth } from "../../contexts/AuthContext";
 
 export default function CustomNavbar() {
   const navigate = useNavigate();
 //   const { user } = useAuth();
 //   const role = user?.role;
-//   const navbarRef = useRef(null);
+  const navbarRef = useRef(null);
 
   const [navbar, setNavbar] = useState(false);
   const [navbarbrand, setColor] = useState(false);
@@ -62,8 +62,8 @@ export default function CustomNavbar() {
   return (
     <>
       <Navbar
-        // ref={navbarRef}
-        // expanded={expanded}
+        ref={navbarRef}
+        expanded={expanded}
         scrolling="true"
         light="true"
         expand="lg"
@@ -114,7 +114,7 @@ export default function CustomNavbar() {
                 Home
               </Nav.Link>
 
-              {role === "partner" && (
+              { (
                 <Nav.Link
                   onClick={() => setExpanded(false)}
                   as={Link}
@@ -129,7 +129,7 @@ export default function CustomNavbar() {
                 </Nav.Link>
               )}
 
-              {role === "admin" && (
+              { (
                 <Nav.Link
                   onClick={() => setExpanded(false)}
                   as={Link}
@@ -144,10 +144,10 @@ export default function CustomNavbar() {
                 </Nav.Link>
               )}
 
-              {(role === "partner" || role === "admin") && (
+              {(
                 <Nav.Link
                   as={Link}
-                  to={"/create-room/" + user?.id}
+                 
                   onClick={() => setExpanded(false)}
                   className={navbarbrand ? "color text" : "color text"}
                 >
@@ -184,7 +184,7 @@ export default function CustomNavbar() {
             </Nav>
 
             <Nav className="sm">
-              {!user && (
+              { (
                 <Button
                   style={{ background: "#2a2185" }}
                   className="custom-button sm me-2"
@@ -195,8 +195,8 @@ export default function CustomNavbar() {
                 </Button>
               )}
 
-              {role === "partner" || role === "admin" ? (
-                <Link to={`/list-property/${user?.id}`}>
+              {(
+                <Link >
                   <Button
                     style={{ background: "#2a2185" }}
                     className="custom-button mx-4"
@@ -204,9 +204,9 @@ export default function CustomNavbar() {
                     List Your property
                   </Button>
                 </Link>
-              ) : null}
+              ) }
 
-              {user && (
+              { (
                 <Button
                   style={{ background: "#2a2185" }}
                   className="custom-button mx-4"
@@ -216,7 +216,7 @@ export default function CustomNavbar() {
                 </Button>
               )}
 
-              {!user && (
+              {(
                 <>
                   <Button
                     style={{ background: "#2a2185" }}
