@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 // import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+// import SignIn from './pages/SignIn';
+// import SignUp from './pages/SignUp';
 import About from './pages/About';
 import Profile from './pages/Profile';
 import Header from './components/Header';
@@ -175,11 +175,11 @@ export default function App() {
       
         <Route path='/' element={<Home1 />} />
         {/* <Route path='/h' element={<Home />} /> */}
-        <Route path='/sign-in' element={<SignIn />} />
+        {/* <Route path='/sign-in' element={<SignIn />} /> */}
         <Route path='/register' element={<RegisterForm />} />
         <Route path = "/login" element= {<LoginForm />} />
         <Route path = "/admin-dashboard" element = {<AdminDashboard />} />
-        <Route path='/about' element={<About />} />
+        {/* <Route path='/about' element={<About />} /> */}
         <Route path='/search' element={<Search />} />
         <Route path='/listing/:listingId' element={<Listing />} />
      

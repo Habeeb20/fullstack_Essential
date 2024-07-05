@@ -206,7 +206,7 @@ export default function CustomNavbar() {
                 </Link>
               ) }
 
-              { (
+              {/* { (
                 <Button
                   style={{ background: "#2a2185" }}
                   className="custom-button mx-4"
@@ -214,7 +214,7 @@ export default function CustomNavbar() {
                 >
                   Logout
                 </Button>
-              )}
+              )} */}
 
               {(
                 <>
