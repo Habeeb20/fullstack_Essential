@@ -10,7 +10,7 @@ const VerifiedHotels = () => {
   useEffect(() => {
     const fetchHotels = async () => {
       try {
-        const response = await axios.get(`${config.apiUrl}/verified-hotels`);
+        const response = await axios.get(`$http://localhost:8000/verified-hotels`);
         setHotels(response.data);
       } catch (error) {
         console.error("Error fetching not-verified:", error);

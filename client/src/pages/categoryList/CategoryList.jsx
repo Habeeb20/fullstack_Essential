@@ -27,7 +27,7 @@ export default function CategoryList() {
     async function fetchData() {
       try {
         const { data } = await axios.get(
-          `${config.apiUrl}/hotels/by-building-type/${category}`,
+          `$http://localhost:8000/hotels/by-building-type/${category}`,
           {
             params: {
               location: selectedState,

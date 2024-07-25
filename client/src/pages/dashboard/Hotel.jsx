@@ -19,7 +19,7 @@ const RoomComponent = () => {
     try {
       const updatedHotels = originalHotels.filter((h) => h.id !== hotel.id);
       setHotels(updatedHotels);
-      await axios.post(`${config.apiUrl}/delete-hotels/${hotel.id}`);
+      await axios.post(`$http://localhost:8000/delete-hotels/${hotel.id}`);
     } catch (ex) {
       if (ex.response && ex.response.status === 404) {
         alert("This hotel has already been deleted.");

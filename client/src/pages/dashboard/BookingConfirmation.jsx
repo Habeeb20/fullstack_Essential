@@ -19,7 +19,7 @@ const BookingConfirmation = () => {
     async function fetchBookingConfirmations() {
       try {
         const { data } = await axios.get(
-          `${config.apiUrl}/booking-confirmations`
+          `$http://localhost:8000/booking-confirmations`
         );
 
         // Filter booking confirmations based on hotel_id

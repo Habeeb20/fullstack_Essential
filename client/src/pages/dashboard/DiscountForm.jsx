@@ -29,7 +29,7 @@ const DiscountForm = () => {
 
     try {
       const response = await axios.post(
-        `${config.apiUrl}/apply-discount`,
+        `$http://localhost:8000/apply-discount`,
         formData
       );
       setSuccessMessage(response.data.message);

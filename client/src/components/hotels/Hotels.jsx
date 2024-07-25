@@ -47,7 +47,7 @@ export default function Hotels() {
     async function fetchHotels() {
       try {
         const res = await axios.get(
-          `${config.apiUrl}/hotels/by-building-type/hotel`
+          `$http://localhost:8000/hotels/by-building-type/hotel`
         );
 
         setHotels(res.data);

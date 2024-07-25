@@ -16,7 +16,7 @@ const CheckInRecordComponent = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-        `${config.apiUrl}/check-in/record?search_term=${searchTerm}&hotel_id=${hotelId}`
+        `$http://localhost:8000/check-in/record?search_term=${searchTerm}&hotel_id=${hotelId}`
       );
       setBookingRecords(response.data);
       setMessage("");

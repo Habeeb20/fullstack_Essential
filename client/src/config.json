@@ -1,5 +1,5 @@
 {
-    "apiUrl": "http://localhost:8000/api",
+    "apiUrl": "http://localhost:8000",
     "imageUrl": "http://localhost:8000/images",
     "roomImageUrl": "http://localhost:8000/room_images",
     "selfiesImages": "http://localhost:8000/"

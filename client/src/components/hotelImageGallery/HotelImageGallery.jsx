@@ -18,7 +18,7 @@ export default function HotelImageGallery({ hotel }) {
     async function fetchHotelsImages() {
       try {
         const { data } = await axios.get(
-          `${config.apiUrl}/images/${hotel?.id}`
+          `$http://localhost:8000/images/${hotel?.id}`
         );
         setPhotos(data);
       } catch (error) {

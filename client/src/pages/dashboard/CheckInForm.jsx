@@ -184,7 +184,7 @@ const CheckInFormComponent = () => {
 
   useEffect(() => {
     async function fetchHotels() {
-      const { data } = await axios.get(`${config.apiUrl}/hotels`);
+      const { data } = await axios.get(`$http://localhost:4000/hotels`);
       setHotels(data);
     }
     fetchHotels();

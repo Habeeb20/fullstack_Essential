@@ -20,7 +20,7 @@ export default function QuestionAndAnswer({ hotel }) {
     event.preventDefault();
 
     try {
-      await axios.post(`${config.apiUrl}/ask-question`, {
+      await axios.post(`$http://localhost:8000/ask-question`, {
         message: formData.message,
         name: formData.name,
         email: formData.email,

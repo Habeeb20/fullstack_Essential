@@ -16,7 +16,7 @@ export default function InspectedRoom() {
   useEffect(() => {
     async function fetchRooms() {
       let { data } = await axios.get(
-        `${config.apiUrl}/inspected-hotels-by-location`
+        `$http://localhost:8000/inspected-hotels-by-location`
       );
       setInspectedRooms(data);
       setLoading(false);

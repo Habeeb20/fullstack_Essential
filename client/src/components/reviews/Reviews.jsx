@@ -23,7 +23,7 @@ export default function Reviews({ hotel }) {
     e.preventDefault();
 
     try {
-      await axios.post(`${config.apiUrl}/reviews`, {
+      await axios.post(`$http://localhost:8000/reviews`, {
         comment: review,
         user_id: user.id,
         hotel_id: hotel.id,

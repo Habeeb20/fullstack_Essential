@@ -46,7 +46,7 @@ const CheckInFormComponentUpdate = () => {
     async function fetchCheckInRecord() {
       try {
         const { data } = await axios.get(
-          `${config.apiUrl}/checkinrecords/${id}`
+          `$http://localhost:8000/checkinrecords/${id}`
         );
         data.booking_date = data.booking_date
           ? data.booking_date.split(" ")[0]

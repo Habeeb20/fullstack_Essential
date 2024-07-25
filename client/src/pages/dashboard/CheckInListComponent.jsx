@@ -15,7 +15,7 @@ export default function CheckInListComponent() {
     }
 
     try {
-      await axios.delete(`${config.apiUrl}/check-in-records/${checkIn.id}`);
+      await axios.delete(`$http://localhost:8000/check-in-records/${checkIn.id}`);
       setCheckInLists((prevCheckIns) =>
         prevCheckIns.filter((ci) => ci.id !== checkIn.id)
       );

@@ -16,7 +16,7 @@ const BookingConfirmationComponent = () => {
     async function fetchBookingConfirmations() {
       try {
         const { data } = await axios.get(
-          `${config.apiUrl}/booking-confirmations`
+          `$http://localhost:8000/booking-confirmations`
         );
         setBookingConfirmations(data);
         setIsLoading(false);

@@ -46,7 +46,7 @@ export default function HotelDeals() {
     const fetchHoteldeals = async () => {
       try {
         const { data } = await axios.get(
-          `${config.apiUrl}/discounted-locations`
+          `$http://localhost:8000/discounted-locations`
         );
         setHotels(data);
         setLoading(false);

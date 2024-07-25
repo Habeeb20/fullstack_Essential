@@ -40,7 +40,7 @@ export default function ModalComponent({
     try {
       setLoading(true);
 
-      const response = await axios.post(`${config.apiUrl}/bookings`, {
+      const response = await axios.post(`$http://localhost:4000/bookings`, {
         hotel_id: hotel.id,
         room_id: roomId,
         guest_name: name,

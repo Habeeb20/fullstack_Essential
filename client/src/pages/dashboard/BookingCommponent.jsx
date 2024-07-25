@@ -31,7 +31,7 @@ const BookingComponent = () => {
     }
 
     try {
-      await axios.put(`${config.apiUrl}/bookings/${bookingId}/cancel`);
+      await axios.put(`$http://localhost:8000/bookings/${bookingId}/cancel`);
       setBookings((prevBookings) =>
         prevBookings.filter((booking) => booking.id !== bookingId)
       );

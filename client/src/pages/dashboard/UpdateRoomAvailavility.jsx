@@ -28,7 +28,7 @@ const UpdateRoomAvailability = () => {
         return;
       }
 
-      await axios.post(`${config.apiUrl}/update-availability`, {
+      await axios.post(`$http://localhost:8000/update-availability`, {
         hotel_id,
         room_id,
       });

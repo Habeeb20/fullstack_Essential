@@ -10,7 +10,7 @@ export default function TrandingDestination() {
 
   useEffect(() => {
     const fetchData = async () => {
-      let { data } = await axios.get(`${config.apiUrl}/trending-destinations`);
+      let { data } = await axios.get(`$http://localhost:8000/trending-destinations`);
 
       setData1(data.slice(0, 2));
       setData2(data.slice(2, 5));

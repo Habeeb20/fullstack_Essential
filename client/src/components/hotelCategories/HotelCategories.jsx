@@ -45,7 +45,7 @@ export default function HotelCategories() {
   useEffect(() => {
     async function fetchBuildingTypes() {
       const { data } = await axios.get(
-        `${config.apiUrl}/distinct-building-types`
+        `$http://localhost:8000/distinct-building-types`
       );
       setHotels(data);
       setLoading(false);

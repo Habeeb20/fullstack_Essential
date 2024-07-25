@@ -14,7 +14,7 @@ const BookingComponent = () => {
     async function fetchHotel() {
       try {
         const { data } = await axios.get(
-          `${config.apiUrl}/hotels-by/${user?.id}`
+          `$http://localhost:8000/hotels-by/${user?.id}`
         );
         setHotels(data);
       } catch (error) {
